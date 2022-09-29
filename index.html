@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>esm</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/js/splide.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/css/splide.min.css"
+    />
+  </head>
+  <body>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var splide = new Splide(".splide", {
+          perPage: 2,
+          wheel: true,
+          waitForTransition: true,
+          arrows: false,
+          pagination: false,
+        });
+        splide.mount();
+      });
+    </script>
+    <nav class="navbar grid grid-cols-8 gap-2 place-items-center text-4xl pt-10 mb-5">
+      <div class="p-1 col-span-6 font-bold">Home</div>
+      <div class="fa fa-youtube p-1"></div>
+      <div class="fa fa-whatsapp p-1"></div>
+    </nav>
+
+    <div
+      class="container carousel-photo max-w-full mt-40 p-10 border-b-8 border-neutral-800 grid grid-cols-8 gap-4 justify-end"
+    >
+      <div class="grid grid-cols-2 gap-4 col-span-4 col-start-5">
+        <div class="placeholder">
+          <img src="https://via.placeholder.com/300" alt="" />
+        </div>
+        <div class="placeholder">
+          <img src="https://via.placeholder.com/300" alt="" />
+        </div>
+        <div class="placeholder">
+          <img src="https://via.placeholder.com/300" alt="" />
+        </div>
+        <div class="placeholder">
+          <img src="https://via.placeholder.com/300" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="about ring-4 ring-blue-900 rounded-xl mx-10 my-40 p-5 text-sm md:text-xl">
+      Founded in 2013,English Support Mission (an English Language Teaching
+      Forum ) is committed to equipping the Rural Youth and teachers with
+      English skills to enable them to keep pace with their urban counterparts.
+      Apart from English skills, the Rural Youth and teachers are also initiated
+      into 21st century education by developing in them 21st century skills.
+      ES(English Support) is therefore committed to organising a host of
+      programmes,workshops,and webinars related to English Language Teaching and
+      learning . It also focuses on soft skills and career counselling
+      programmes.
+    </div>
+
+    <div class="progms container grid grid-cols-2 gap-0 mx-auto text-xl">
+      <div class="p-2">
+        <img src="https://via.placeholder.com/300" alt="" />
+        <p class="">
+          English for Employment, a one-day workshop held on 20th October 2013
+          at Town Hall,Dharmagarh,Kalahandi.
+        </p>
+      </div>
+      <div class="p-2">
+        <img src="https://via.placeholder.com/300" alt="" />
+        <p class="">
+          A 9- Day workshop on Spoken English held from 14th October 2018 to
+          22nd Oct 2018 at ST school,Dharmagarh,Kalahandi.
+        </p>
+      </div>
+      <div class="p-2">
+        <img src="https://via.placeholder.com/300" alt="" />
+        <p class="">
+          A 2-Day workshop on English Skills on 7th and 8th October 2019 at
+          Kalyan mandap,Junagarh, Kalahandi district, Odisha.
+        </p>
+      </div>
+      <div class="p-2">
+        <img src="https://via.placeholder.com/300" alt="" />
+        <p class="">
+          A One month course in communicative English held from 1st May 2019 to
+          31st May 2019 at Saraswati Sishu Mandir, Koksara,Kalahandi.
+        </p>
+      </div>
+    </div>
+
+    <div class="coords max-w-fit mx-auto">
+      <section
+        class="splide text-center text-xl my-10"
+        aria-labelledby="carousel-heading"
+      >
+        <h2 id="carousel-heading" class="absolute z-40 left-5 -top-10">
+          Meet Our Coordinators
+        </h2>
+
+        <div class="splide__track my-20 ">
+          <ul class="splide__list text-xs md:text-xl">
+            <li class="splide__slide">
+              <section class="mx-auto">
+                <img
+                  src="https://via.placeholder.com/300"
+                  alt=""
+                  class="rounded-full"
+                />
+              
+              </section>
+            </li>
+            <li class="splide__slide">
+              <section class="mx-auto">
+                <img
+                  src="https://via.placeholder.com/300"
+                  alt=""
+                  class="rounded-full"
+                />
+              </section>
+            </li>
+            <li class="splide__slide">
+              <section class="mx-auto">
+                <img
+                  src="https://via.placeholder.com/300"
+                  alt=""
+                  class="rounded-full"
+                />
+              </section>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    
+    <div class="image max-w-screen-xl">
+      <img
+        src="/img/White_SIgnature_Art_Studio_Logo-removebg-preview-2.png"
+        class=" top-5 left-20 absolute z-40"
+        alt=""
+        srcset=""
+      />
+    </div>
+
+    <div class="circles absolute top-40 -z-40 max-w-md
+      md:max-w-2xl lg:max-w-6xl lg:top-40">
+      <img src="/img/circle-scatter-haikei.svg" alt="">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.progms img {
+  display: block;
+  margin: auto;
+}
+
+@media (max-width:768px) {
+  .progms p {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .navbar {
+    display: none;
+  }
+}
+
+
+body {
+  overscroll-behavior: none;
+}
+
